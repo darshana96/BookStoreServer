@@ -1,0 +1,15 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "connect_strong_Database": {
+    "host": "localhost",
+    "port": 27017,
+    "database": "mybooks",
+    "username": "",
+    "password": "",
+    "name": "connect_strong_Database",
+    "connector": "mongodb"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "booksList",
+  "plural": "getBookList",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "bookid": {
+      "type": "string"
+    },
+    "bookname": {
+      "type": "string"
+    },
+    "bookauthor": {
+      "type": "string"
+    },
+    "bookdesc": {
+      "type": "string"
+    },
+    "bookpage": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
